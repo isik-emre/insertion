@@ -1,0 +1,42 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+** 1 -Yukarı verilen dizinin sort türüne göre aşamalarını yazınız **
+
+[22,27,16,2,18,6] Başlangıç
+[2,27,16,22,18,6] Dizinin en küçüğü 2 ile 22 nin yeri değiştirildi
+[2,6,16,22,18,27] Dizinin ikinci en küçüğü 6 ile 27 nin yeri değiştirildi
+[2,6,16,22,18,27] Dizinin üçüncü en küçüğü 16 olduğu için işlem yapılmadı
+[2,6,16,18,22,27] Dizinin dördüncü en küçüğü 18 ile 22 nin yeri değiştirildi
+[2,6,16,18,22,27] Dizinin beşinci en küçüğü 22 olduğu için işlem yapılmadı
+[2,6,16,18,22,27] Dizinin altıncı en küçüğü 27 olduğundan işlem yapılmadı
+
+** 2-Big-O gösterimini yazınız **
+
+Worst case o(n^2)
+Avarage case o(n^2)
+Best Case o(n)
+
+** 3-Time Complexity: 
+Average case: Aradığımız sayının ortada olması,
+Worst case: Aradığımız sayının sonda olması, 
+Best case: Aradığımız sayının dizinin en başında olması **
+
+Average Case - 16 ve 18 sayıları
+Best Case - 2 sayısı
+Worst Case - 27 sayısı
+
+** 4-Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız **
+
+Dizide 18 sayısı en başta veya en sonda olmadığından dolayı Avarage case kapsamına girer
+
+
+** [7,3,5,8,2,9,4,15,6] dizisinin Intersion Sort'a göre ilk 4 adımını yazınız **
+
+[7,3,5,8,2,9,4,15,6] Başlangıç
+[2,3,5,8,7,9,4,15,6] Dizinin en küçüğü 2 ile 7 nin yeri değiştirildi
+[2,3,5,8,7,9,4,15,6] Dizinin ikinci en küçüğü 3 olduğu için işlem yapılmadı
+[2,3,4,8,7,9,5,15,6] üçüncü en küçük sorgusu 4 ile 5 in yeri değiştirildi
+[2,3,4,5,7,9,8,15,6] Dizinin dördüncü en küçüğü 5 ile 8 in yeri değiştirildi
+
+
+
